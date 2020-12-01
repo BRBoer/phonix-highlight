@@ -2,6 +2,7 @@
     "name": "phonix",
     "displayName": "Phonix",
     "publisher": "BRBoer",
+    "repository": "https://github.com/BRBoer/phonix-highlight",
     "description": "Applies syntax highlighting to Phonix sound change files",
     "version": "1.0.0",
     "engines": {
