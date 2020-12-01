@@ -1,0 +1,35 @@
+{
+    "name": "phonix",
+    "displayName": "Phonix",
+    "publisher": "BRBoer",
+    "description": "Applies syntax highlighting to Phonix sound change files",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "phonix",
+                "aliases": [
+                    "Phonix",
+                    "phonix"
+                ],
+                "extensions": [
+                    ".phonix"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "phonix",
+                "scopeName": "source.phonix",
+                "path": "./syntaxes/phonix.tmLanguage.json"
+            }
+        ]
+    }
+}
