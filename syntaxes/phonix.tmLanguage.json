@@ -11,7 +11,7 @@
       "patterns": [
         {
           "name": "comment.line.phonix",
-          "match": "#.+"
+          "match": "#[\\S\\s]*$"
         },
         {
           "name": "entity.name.function.phonix",
@@ -32,7 +32,7 @@
           {
             "name": "entity.name.function.phonix",
             "match": "(?<=(feature)[\\s*]+)((\"[^\"]+\")|(\\S+))"
-        }
+            }
       ]
     }
   },
