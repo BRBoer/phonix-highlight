@@ -30,10 +30,6 @@
             "match": "^(\\s+)?(rule|feature|symbol|syllable)"
           },
           {
-            "name": "constant.language.phonix",
-            "match": "(?<=^(\\s+)?symbol.*)\\(\\S+\\)"
-          },
-          {
             "name": "entity.name.function.phonix",
             "match": "(?<=(feature)[\\s*]+)((\"[^\"]+\")|(\\S+))"
         }
